@@ -1,0 +1,70 @@
+@import '../helpers/variables.scss';
+@import '../helpers/mixins.scss';
+body {
+    background-image: $bg-img;
+    color:$global-font-color;
+    font-size: .8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: scroll;
+    overflow-x: hidden;
+    @include breakpoint(md) {
+        overflow-y: hidden;
+        height: 100vh;
+    }
+}
+
+
+main {
+    overflow-y: hidden;
+    overflow-x: hidden;      
+    @include breakpoint(lg) {
+        overflow-y: scroll;
+        height: 100vh;
+        padding-top: 70px;
+
+    }
+
+    background: $main-bg;
+}
+
+.btn-primary {
+    background-color: $btn-primary!important;
+    border-color:  #fff;
+}
+
+.btn-primary:hover {
+    background-color: $btn-primary!important;
+    color: #555;
+    border-color:  #555;
+}
+.table-body {
+    margin-bottom: 40px;
+}
+
+.table-content ul {
+    margin: 0px 20px;
+}
+.table-footer {
+    text-align: center;
+}
+.btn-buy {
+    background: #000;
+    color: #fff;
+}
+
+.router-link-active {
+    color: $href-active;
+}
+
+.form-group {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.table-header {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 600;
+}

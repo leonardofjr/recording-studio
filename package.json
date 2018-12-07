@@ -1,0 +1,42 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.18",
+        "cross-env": "^5.1",
+        "gulp-sass": "^3.2.1",
+        "laravel-mix": "^2.0",
+        "lodash": "^4.17.5",
+        "node-sass": "^4.10.0",
+        "popper.js": "^1.12",
+        "vue": "^2.5.17",
+        "webpack-cli": "^3.1.2"
+    },
+    "dependencies": {
+        "4": "0.0.0",
+        "ajv": "^6.0.0",
+        "bootstrap": "^4.1.3",
+        "coffeescript": "^2.3.2",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "graceful-fs": "^4.1.15",
+        "gulp": "^4.0.0",
+        "gulp-autoprefixer": "^3.1.1",
+        "gulp-uglify": "^3.0.1",
+        "hoek": "^6.0.3",
+        "imagemin": "^5.0.0",
+        "jquery": "^3.3.1",
+        "laravel-elixir": "^6.0.0-18",
+        "postscribe": "^2.0.8",
+        "vue-router": "^3.0.1",
+        "webpack": "^3.11.0",
+        "webpack-dev-server": "^3.1.10"
+    }
+}

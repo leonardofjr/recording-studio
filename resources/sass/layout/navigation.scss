@@ -1,0 +1,74 @@
+@import '../helpers/mixins.scss';
+
+aside {
+    background-color: $side-nav-bg;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    @include breakpoint(lg) {
+        padding-top: initial;
+        padding-bottom: initial;
+    }
+    .nav-header {
+        display: flex;
+        flex-basis: 0;
+        justify-content: space-between;
+
+  
+    }
+
+    .studio-name {
+    display: block;
+    font-size: 3em;
+
+    @include breakpoint(lg) {
+        margin-top: 80px;
+        margin-bottom: 50px;
+
+    }
+}
+
+
+    .nav-items {
+        list-style: none;
+        position: absolute;
+        transition: left 1000ms;
+        z-index: 1000;
+        height: 480px;
+        width: 320px;
+        margin: 0;
+        margin-top: 20px;
+        left: -700px;
+        padding: 1.2rem;
+        background: #000;
+        opacity: .9;
+
+        @include breakpoint(lg) {
+            background: initial;
+            position: initial;
+            height: initial;
+            width: initial;
+            margin-top: initial;
+        }
+
+    }
+
+
+    a {
+        color: #666;
+        font-size: 2em;
+    }
+
+    a:hover {
+        color: $href-color;
+    }
+}
+
+
+.slide-in {
+  left: 0!important;
+}
+
+.slide-in-toggler {
+  left: 200px!important;
+}
