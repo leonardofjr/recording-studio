@@ -4,8 +4,7 @@
                         <nav class=" navbar-dark ">
                             <div class="nav-header">
                                 <div class="brand">
-                                    <span class="studio-name">CHOLO LIFE<br>
-                                    <span style="color: red">STUDIO</span></span>
+                                    <img class="img-fluid" src="/imgs/logo.png" alt="Migtikueliz Beats" style="padding-top: 3rem; width: 80%">
                                 </div>
 
                                 <div class="hamburger-button  d-xs-block d-lg-none">

@@ -1,0 +1,10 @@
+
+> fibers@4.0.2 install C:\wamp64\www\html\recording-studio\node_modules\fibers
+> node build.js || nodejs build.js
+
+`win32-x64-64` exists; testing
+Binary is fine; exiting
++ fibers@4.0.2
+added 2 packages from 3 contributors and audited 33219 packages in 6.805s
+found 7 vulnerabilities (2 low, 5 moderate)
+  run `npm audit fix` to fix them, or `npm audit` for details
